@@ -115,7 +115,11 @@ to decrease from 83±1 to 20±1. You need to ensure that this change happens as 
 For the convolution and fully connected layers, the implementation using CUDA is the essential part. Since you 
 are encouraged to accelerate all the layers, the larger the speedup you get, the better your work will be evaluated.
 
-## Can I share some of my knowledge with people outside my group?
+## Two types of GPU in GitHub Runners.
+
+This year, we provide two types of GPUs. You need to specify which GPU to use by pushing your code to branch `benchmark-gpu0` or `benchmark-gpu1`.
+
+<!-- ## Can I share some of my knowledge with people outside my group?
 
 There are some bonus points awarded to the groups with the fastest implementation.
 
@@ -124,7 +128,7 @@ algorithm with other groups is a smart thing to do ;-)
 
 * 1st place: +15% on lab 3 grade
 * 2nd place: +10% on lab 3 grade
-* 3rd place: +5% on lab 3 grade
+* 3rd place: +5% on lab 3 grade -->
 
 ## How can I gain more knowledge about CNNs?
 

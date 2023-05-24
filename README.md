@@ -52,8 +52,10 @@ filed. The MNIST dataset contains images of handwritten digits (“0” to “9�
 * For the training images, the handwritten digits have been normalized and centered in a fixed-size image. Below 
 are some samples from the training dataset, which represent samples from all digits ranging from “0” to “9”.
 
-![input image](images/input.png)
- 
+<div>
+<img src="https://raw.githubusercontent.com/tud-acs/lab3-cnn-ci/development/images/input.png">
+</div>
+
 * For the training labels, each training label is on-hot encoded in a sparse vector, where the position of the “1” 
 entry in the vector corresponds to the digit value on the training images.
 
@@ -75,8 +77,10 @@ Each of the training images is trained once, which is called one epoch. The file
 run the training process for one epoch. This will result in a decreasing error down to about 20%, which will be printed
 every 6000 training images.
 
-![error image](images/error.png)
- 
+<div>
+<img src="https://raw.githubusercontent.com/tud-acs/lab3-cnn-ci/development/images/error.png">
+</div>
+
 5. CNN inference process
 
 Inference involves only computing the forward pass in the CNN. One image with the digit “8” is provided to test 
@@ -84,8 +88,10 @@ the trained CNN; its inference output is shown below. The output lists the proba
 to each of the digits from “0” to “9” as computed by the CNN. The digit with the maximum probability is the 
 inferred result. 
 
-![result image](images/result.png)
- 
+<div>
+<img src="https://raw.githubusercontent.com/tud-acs/lab3-cnn-ci/development/images/result.png">
+</div>
+
 ## What should I do with the baseline project?
 
 * You should read the baseline source code and figure out how the program works.
@@ -160,7 +166,7 @@ the discussion of your report:
 
 1. An application profile of the baseline / intermediate versions.
 2. An estimation on what performance can be gained after improving specific parts, 
-  based on the profiles.
+    based on the profiles.
 3. A short discussion on how you've improved specific parts.
 4. Go back to 1 and repeat until you've squeezed out as much throughput as possible.
 

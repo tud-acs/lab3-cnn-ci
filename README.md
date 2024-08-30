@@ -1,4 +1,4 @@
-# Advanced Computing Systems 2023-2024 Lab 3 – Convolutional Neural Networks (CNNs)
+# Advanced Computing Systems 2024-2025 Lab 3 – Convolutional Neural Networks (CNNs)
 
 This application is intended to help students understand GPU programming through the acceleration of Convolutional 
 Neural Networks (CNNs), which is based on the implementation [simple_cnn](https://github.com/can1357/simple_cnn) by 
@@ -121,9 +121,9 @@ to decrease from 83±1 to 20±1. You need to ensure that this change happens as 
 For the convolution and fully connected layers, the implementation using CUDA is the essential part. Since you 
 are encouraged to accelerate all the layers, the larger the speedup you get, the better your work will be evaluated.
 
-## Two types of GPU in GitHub Runners.
+## Branches and GPUs in GitHub Runners.
 
-This year, we provide two types of GPUs. You need to specify which GPU to use by pushing your code to branch `benchmark-gpu0` or `benchmark-gpu1`.
+This year, we provide two types of GPUs. You need to specify which GPU to use by pushing your code to branch `benchmark-gpu0` or `benchmark-gpu1`. Notice that benchmark branches will also perform Nsight System profiling on the benchmark server. If your code is not ***well-tested*** or might cause some troubles (e.g. runs longer than 10 minutes, may crash halfway), please push to branch `development-profile` to perform profiling on the development server first.
 
 <!-- ## Can I share some of my knowledge with people outside my group?
 
